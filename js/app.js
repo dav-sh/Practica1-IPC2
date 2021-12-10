@@ -28,7 +28,6 @@ let Iniciar = ()=>{
     let pw_i = document.getElementById('password').value;
     console.log('Usuario: '+ usuario_i);
     console.log('Constraseña: '+ pw_i);
-    setTimeout(() => {  console.log("Finalizado..."); }, 5000);
     if(pw==pw_i && usuario==usuario_i){
         console.log('Las contraseñas SI coinciden');
 
